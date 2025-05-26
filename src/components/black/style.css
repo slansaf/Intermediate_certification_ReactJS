@@ -1,0 +1,43 @@
+/* --------------- The black section --------------- */
+.black {
+	background: rgb(34, 34, 36);
+}
+
+.black_items {
+	display: flex;
+	gap: 30px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 103px 0;
+	justify-content: center;
+}
+
+.black_main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	max-width: 360px;
+}
+
+.black_main h4 {
+	font-family: Lato;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	color: rgb(251, 251, 251);
+	margin: 19px 0 16px 0;
+}
+
+.black_main p {
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17px;
+	text-align: center;
+	color: rgb(251, 251, 251);
+}

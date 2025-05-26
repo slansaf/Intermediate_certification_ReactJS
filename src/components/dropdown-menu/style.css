@@ -1,0 +1,54 @@
+.hidden-menu {
+	display: none;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav {
+	background: rgb(255, 255, 255);
+	box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+	width: 232px;
+	padding: 32px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	transition: right 0.3s;
+}
+.nav__heading {
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	text-align: left;
+	margin-bottom: 4px;
+}
+.nav__subheading {
+	color: rgb(241, 109, 127);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: left;
+	margin-bottom: 12px;
+	margin-top: 20px;
+}
+.nav__ul {
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	padding-left: 22px;
+}
+.nav__link {
+	color: rgb(111, 110, 110);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: left;
+}
+.nav__link:hover {
+	color: rgb(241, 109, 127);
+}

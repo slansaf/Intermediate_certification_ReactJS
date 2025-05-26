@@ -1,0 +1,95 @@
+/* ----------------- SUBSCRIBE ------------------ */
+.subscribe_main {
+	background-image: url(./photo_subscribe.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 95px;
+	padding-bottom: 126px;
+}
+
+.subscribe__item1 {
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	color: rgb(34, 34, 36);
+	max-width: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.subscribe__item1 span {
+	font-style: italic;
+}
+
+.subscribe__item2 h4 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.subscribe__item2 {
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 167.2%;
+	text-align: center;
+	color: rgb(34, 34, 36);
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 32px;
+}
+
+.subscribe__item2 input {
+	font-family: Lato;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: left;
+	color: rgb(34, 34, 36);
+	background: rgb(225, 225, 225);
+	padding: 15px 22px;
+	border-radius: 20px 0 0 20px;
+	width: 250px;
+	cursor: pointer;
+}
+
+.subscribe__item2 button {
+	font-family: Lato;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: rgb(241, 109, 127);
+	padding: 15px 22px;
+	border-radius: 0 20px 20px 0;
+	transition: 0.3s;
+}
+
+.subscribe__item2 input:focus::-moz-placeholder {
+	color: transparent;
+}
+
+.subscribe__item2 input:focus::placeholder {
+	color: transparent;
+}
+
+.subscribe__item2 button:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(241, 109, 127);
+}

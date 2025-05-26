@@ -1,0 +1,48 @@
+.hidden {
+	display: block;
+}
+
+.header {
+	background: rgb(34, 34, 34);
+}
+
+.header_main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	padding: 19px 0;
+}
+
+.header__logo {
+	display: flex;
+	gap: 33px;
+}
+
+.header__menu {
+	display: flex;
+	gap: 33px;
+	position: relative;
+}
+
+.icon:hover path {
+	fill: rgb(241, 109, 127);
+	transition: all 0.3s;
+}
+
+.number {
+	background: rgb(241, 109, 127);
+	padding: 1px 5px;
+	font-family: Lato;
+	text-align: center;
+	border-radius: 50%;
+	font-weight: 400;
+	line-height: 14px;
+	font-size: 12px;
+	color: rgb(225, 225, 225);
+	position: absolute;
+	top: -8px;
+	right: -8px;
+}

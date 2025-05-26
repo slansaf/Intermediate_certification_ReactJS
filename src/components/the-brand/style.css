@@ -1,0 +1,43 @@
+/*---------------ThE BRAND--------------------*/
+.thebrand {
+	background: rgb(241, 228, 230);
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.thebrand img {
+	max-width: 571px;
+}
+
+.thebrand__title {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	border-left: 12px solid rgb(161, 78, 89);
+	padding-left: 15px;
+}
+
+.thebrand__title h1 {
+	font-family: "Lato-Black";
+	font-size: 48px;
+	font-weight: 900;
+	text-align: left;
+}
+
+.thebrand__title h2 {
+	font-family: "Lato";
+	font-size: 32px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.thebrand__title span {
+	color: rgb(161, 78, 89);
+}
+

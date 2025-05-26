@@ -1,0 +1,62 @@
+/*---------------Cards menu--------------------*/
+.cards_menu {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	font-family: Lato;
+	margin-top: 65px;
+}
+
+.cards_menu span {
+	color: rgb(241, 109, 127);
+	font-size: 27px;
+	font-weight: 700;
+	text-align: center;
+	font-family: Lato;
+	gap: 30px;
+}
+
+.cards_menu_three {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 30px;
+}
+
+.cards_menu__women,
+.cards_menu__men,
+.cards_menu__kids,
+.cards_menu__accesories {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cards_menu__women {
+	background-image: url(./for_women.png);
+	width: 360px;
+	height: 260px;
+}
+
+.cards_menu__men {
+	background-image: url(./fot_men.jpeg);
+	width: 360px;
+	height: 260px;
+}
+
+.cards_menu__kids {
+	background-image: url(./for_kids.jpeg);
+	width: 360px;
+	height: 260px;
+}
+
+.cards_menu__accesories {
+	background-image: url(./accesories.jpeg);
+	height: 180px;
+	margin: 0 auto;
+}

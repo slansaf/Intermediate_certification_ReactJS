@@ -1,0 +1,149 @@
+.registration {
+  padding-top: 64px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration__heading {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+}
+.registration__item {
+  border: 1px solid rgb(164, 164, 164);
+  width: 359px;
+  padding-top: 13px;
+  padding-bottom: 16px;
+  padding-left: 17px;
+  transition: background-color 0.5s;
+}
+.registration__item::-moz-placeholder {
+  color: rgb(177, 177, 177);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+}
+.registration__item::placeholder {
+  color: rgb(177, 177, 177);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+}
+.registration__item:hover {
+  background-color: rgb(241, 109, 127);
+}
+.registration__item:hover::-moz-placeholder {
+  color: white;
+}
+.registration__item:hover::placeholder {
+  color: white;
+}
+.registration__radio-box {
+  display: flex;
+  gap: 20px;
+}
+.registration__radio {
+  color: rgb(34, 34, 34);
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: left;
+}
+.registration__radio-text {
+  color: rgb(34, 34, 34);
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+}
+.registration__text {
+  color: rgb(177, 177, 177);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  max-width: 359px;
+}
+.registration__button {
+  margin-top: 20px;
+  background-color: rgb(241, 109, 127);
+  color: white;
+  padding: 17px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+  width: 185px;
+  transition: background-color 0.5s;
+}
+.registration__button:hover {
+  background-color: rgb(74, 74, 74);
+}
+
+.loyalty {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: left;
+  width: 652px;
+}
+.loyalty__text {
+  padding: 22px 0 22px 0;
+}
+.loyalty__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 30px;
+}
+.loyalty__ul li {
+  list-style-image: url(../img/tick.svg);
+  padding-left: 23px;
+}
+@media (min-width: 736px) and (max-width: 1140px) {
+  .registration {
+    padding-top: 40px;
+  }
+  .loyalty {
+    font-size: 16px;
+    line-height: 19px;
+    width: 354px;
+  }
+}
+@media (max-width: 735px) {
+  .registration {
+    padding: 40px 10px 100px 10px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .registration__button {
+    font-size: 14px;
+    gap: 20px;
+    width: 170px;
+  }
+  .registration__item {
+    width: 355px;
+  }
+  .loyalty {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    max-width: 358px;
+  }
+  .loyalty__text {
+    padding: 22px 0 22px 0;
+  }
+}
