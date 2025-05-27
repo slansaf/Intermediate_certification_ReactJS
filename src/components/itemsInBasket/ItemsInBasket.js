@@ -13,8 +13,14 @@ const ItemsInBasket = () => {
 
     const updateCartCount = () => {
         const cart = JSON.parse(localStorage.getItem('cart')) || null;
-        const totalCount = cart.reduce((acc, item) => acc + item.count, 0);
-        setCartCount(totalCount);
+        if (cart) {
+          const totalCount = cart.reduce((acc, item) => acc + item.count, 0);
+          setCartCount(totalCount);
+        } else {
+          setCartCount(0);
+        }
+        
+        
       };
 
     return (
