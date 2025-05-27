@@ -9,7 +9,7 @@ const ItemsInBasket = () => {
         return () => {
             window.removeEventListener('storage', updateCartCount);
         };
-      }, []);
+      }, ["storage"]);
 
     const updateCartCount = () => {
         const cart = JSON.parse(localStorage.getItem('cart')) || null;
