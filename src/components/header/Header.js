@@ -6,6 +6,7 @@ import logo from "./logo.svg";
 import DropDownMenu from "../dropdown-menu/DropDownMenu";
 import ItemsInBasket from "../itemsInBasket/ItemsInBasket";
 
+
 function Header() {
 	const [isMenuVisible, setIsMenuVisible] = useState(false);
 
